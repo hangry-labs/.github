@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/hangry-labs-banner.jpg" alt="Hangry Labs banner" width="100%">
+</p>
+
 # 🧪 Hangry Labs
 
 **Local-first tools, baked-in images, private by default — for humanity and the power of nuggets.**
