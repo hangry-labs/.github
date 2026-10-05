@@ -1,36 +1,35 @@
 <p align="center">
-  <img src="./assets/hangry-labs-banner.jpg" alt="Hangry Labs banner" width="100%">
+  <img src="./assets/hangrylabs_logo_horizontal.webp" alt="Hangry Labs: useful systems, no mystery required" width="100%">
 </p>
 
 # 🧪 Hangry Labs
 
-**Local-first tools, baked-in images, private by default — for humanity and the power of nuggets.**
+**Local-first tools, baked images, and privacy by default. For humanity and the power of nuggets.**
 
-Hangry Labs builds practical, self-hostable tools that are easy to run, easy to share, and designed to keep working without depending on fragile cloud-only setups.
+Hangry Labs builds practical, self-hostable AI systems, automation, dashboards, and creative tools. We package the difficult parts, provide useful interfaces, and explain the real trade-offs so people can run capable software on hardware they control.
 
-Our goal is simple:
-
-- run locally
-- keep your data private
-- avoid painful setup rituals
-- bake models/assets/dependencies where possible
-- make useful tools free to use and free to share
-- preserve software so it does not disappear when a service, link, or dependency breaks
+Explore [hangrylabs.app](https://hangrylabs.app/) or browse the projects below.
 
 Because sometimes you just want the thing to work.  
 Not summon twelve dependency demons and sacrifice your weekend to Python environments.
 
 ---
 
-## 🌍 Mission
+## 🌍 Why Hangry Labs Exists
 
-Modern AI tools are powerful, but too many of them depend on hosted services, hidden infrastructure, disappearing model links, complex setup steps, or external accounts.
+Modern AI tools are powerful, but many depend on hosted services, hidden infrastructure, disappearing model links, complex setup rituals, or external accounts.
 
-Hangry Labs takes a different approach.
+Hangry Labs takes a more independent approach:
 
-We focus on **local-first, privacy-friendly, reproducible projects** where the important pieces are packaged as much as possible. When a tool needs models, assets, runtime dependencies, or special setup, we try to make that available through ready-to-run containers or clear instructions.
+- run tools locally or on infrastructure you control
+- keep prompts, voices, transcripts, documents, and images private
+- provide clear Docker commands and sensible defaults
+- include models and dependencies when practical
+- offer browser interfaces for people and useful APIs for other systems
+- publish honest hardware guidance, measurements, and limitations
+- preserve upstream credit, licenses, and links
 
-The ideal Hangry Labs project should feel like:
+The ideal first experience should feel like:
 
 ```text
 docker run ...
@@ -38,177 +37,90 @@ docker run ...
 
 and then it works.
 
-Maybe not always perfectly. We are still fighting the dependency fires.
-But that is the direction.
+Maybe not always perfectly. We are still fighting the dependency fires. But that is the direction.
 
 ---
 
-## 🔐 Private by Default
+## 🧰 Current Projects
 
-Many AI tools process personal data: voice samples, generated speech, text prompts, transcripts, documents, images, or other sensitive inputs.
+What began with local speech tools has grown into a wider collection of AI, operations, and creator software.
 
-Hangry Labs projects are built around the idea that users should be able to run tools on their own machines or own servers, with their own data staying under their control.
+| Project | Area | What it offers |
+|---|---|---|
+| [**KokoroTTS**](https://github.com/hangry-labs/kokoroTTS) | Fast local speech | Multilingual TTS with 173 voices across 11 languages, streaming, SSML workflows, and OpenAI-compatible APIs. |
+| [**MeloTTS**](https://github.com/hangry-labs/MeloTTS) | Multilingual speech | A dependable TTS engine with browser UI, API, sentence streaming, and CPU fallback. |
+| [**OmniVoiceTTS**](https://github.com/hangry-labs/OmniVoiceTTS) | Voice lab | TTS for 600+ languages with voice design, reference cloning, reusable profiles, and OpenAI-compatible speech routes. |
+| [**VoxCPMTTS**](https://github.com/hangry-labs/VoxCPMTTS) | Creative speech | Local VoxCPM2 packaging for multilingual generation, natural voice design, reference cloning, and transcript-guided cloning. |
+| [**Qwen3-ASR-STT**](https://github.com/hangry-labs/Qwen3-ASR-STT) | Speech to text | Local transcription, language detection, timestamps, microphone streaming, and OpenAI-compatible clients. |
+| [**llama.nodrama**](https://github.com/hangry-labs/llama.nodrama) | LLM operations | A focused diagnostics interface for llama.cpp slots, queues, throughput, KV cache behavior, and request timelines. |
+| [**see-through**](https://github.com/hangry-labs/see-through) | Creator tools | Private local anime-character layer decomposition with PSD export, depth tools, selective regeneration, and revision-aware editing. |
 
-We like tools that can run:
-
-- locally
-- privately
-- offline or semi-offline where possible
-- behind your own authentication
-- inside your own infrastructure
-- without sending everything to someone else’s cloud
-
-Privacy should not be a luxury feature.
-
----
-
-## 📦 Baked Images
-
-One of the main goals of Hangry Labs is to provide projects with **baked Docker images** where possible.
-
-That means images may include:
-
-- required runtime dependencies
-- downloaded model assets
-- preconfigured application structure
-- API/UI wrappers
-- setup shortcuts
-- sensible defaults
-
-The point is not to make images tiny at all costs.  
-The point is to make them **survive**.
-
-A larger image that works today, tomorrow, and next year is often better than a tiny image that breaks because one model URL vanished, one package changed, or one install command decided to explode into confetti.
-
----
-
-## 🎙️ Current Focus: Local TTS and Voice Tools
-
-Hangry Labs is currently focused on local text-to-speech, voice generation, and AI audio tooling.
-
-Different engines have different strengths, so we treat them as a toolbox rather than forcing one model to do everything.
-
-| Project | Purpose |
-|---|---|
-| **KokoroTTS** | Fast, high-quality local TTS for supported languages. Great for long-form generation and quick workflows. |
-| **MeloTTS** | Stable multilingual TTS base engine and useful pipeline component. |
-| **OmniVoiceTTS** | Broad multilingual TTS, voice cloning, and voice design with baked local deployment support. |
-
-Each project aims to make powerful voice tools easier to run privately.
-
----
-
-## ⚡ Speed vs Capability
-
-Not every model should be judged by the same standard.
-
-Some engines are excellent because they are extremely fast.  
-Some are excellent because they support more languages.  
-Some are excellent because they provide cloning, style control, or voice design.
-
-Hangry Labs tries to package tools according to what they are actually good at.
-
-```text
-KokoroTTS    → fast and beautiful
-MeloTTS      → stable pipeline base
-OmniVoiceTTS → broad multilingual/cloning monster
-```
+Different engines and tools have different strengths. We package them according to what they are actually good at instead of pretending one model should solve everything.
 
 Different nuggets for different disasters.
 
 ---
 
-## 🛠️ What We Like Building
+## 🛠️ How We Build
 
-Hangry Labs projects usually orbit around:
+### Local-first and private by default
 
-- local AI tools
-- text-to-speech systems
-- speech and voice pipelines
-- self-hosted applications
-- Dockerized model serving
-- browser UIs and simple APIs
-- automation utilities
-- privacy-friendly workflows
-- tools that keep working after setup
-- projects that start as “one small fix” and accidentally become platforms
+Your data should stay close. Hangry Labs projects aim to work on your machine or server without sending sensitive inputs to someone else's cloud.
 
-This is a lab for useful side quests.
+### Baked when practical
 
----
+Full Docker images can include model assets, runtime dependencies, and the application itself. When a fully baked image would be impractical, projects can provide a smaller image backed by a stable persistent data volume.
 
-## 🧭 Project Principles
+The goal is reliability, not winning a contest for the smallest image. A larger image that still works next year is often more useful than a tiny image that breaks when a package changes or a model link disappears.
 
-### 1. Local-first
+### Open interfaces
 
-A project should be useful without requiring a hosted service whenever possible.
+People should have a clear browser interface. Applications and automations should have documented HTTP APIs, useful status endpoints, and predictable behavior.
 
-### 2. Private by default
+Where OpenAI-compatible APIs make sense, we use them as a practical compatibility baseline while keeping useful product-specific capabilities available.
 
-Users should be able to run tools without sending sensitive data away.
+### Honest limits
 
-### 3. Easy to run
+Fast models can have narrower capabilities. Powerful models can need more memory and patience. Benchmarks should name their hardware and settings, and compatibility guidance should be clear about what was measured.
 
-Setup should be simple, documented, and preferably containerized.
-
-### 4. Baked when practical
-
-Models and assets should be included or prefetchable in reliable ways.
-
-### 5. Free to use, free to share
-
-Useful tools should be accessible, reusable, and preserved.
-
-### 6. Honest about trade-offs
-
-If a model is fast but limited, say so.  
-If a model is powerful but slow, say so.  
 No magic smoke. Only mildly dramatic engineering reality.
+
+### Respect for upstream work
+
+Many Hangry Labs projects build on excellent open-source research and software. We keep upstream attribution and licenses visible, explain what came from upstream, and document what Hangry Labs adds around packaging, interfaces, deployment, and validation.
 
 ---
 
 ## 🚀 Long-Term Direction
 
-Hangry Labs is not only about TTS.
+Hangry Labs is still a lab for useful side quests. The broader direction includes local-first tools for:
 
-The broader direction includes local-first tools for:
-
-- AI companions
-- voice interfaces
-- memory systems
+- AI companions and voice interfaces
+- memory and knowledge systems
 - self-hosted dashboards
 - private automation
 - creator tools
-- game/streaming utilities
-- model-serving wrappers
+- game and streaming utilities
+- model serving and observability
 - reproducible AI experiments
 
-The dream is a collection of tools that people can actually run, understand, modify, and preserve.
+The aim is a collection of tools that people can run, understand, modify, connect, and preserve.
 
-Not everything needs to be a cloud subscription.  
-Some things should just belong to the people using them.
+Not everything needs to be a cloud subscription. Some things should simply belong to the people using them.
 
 ---
 
 ## 🧃 For Humanity and the Power of Nuggets
 
-Hangry Labs exists because useful tools should not be locked behind fragile setups, disappearing services, or unnecessary data exposure.
-
 We build for people who want to run things themselves.
 
-For builders.  
-For creators.  
-For privacy.  
-For weird experiments.  
-For the small fixes that become giant projects.  
+For builders.<br>
+For creators.<br>
+For privacy.<br>
+For weird experiments.<br>
+For the small fixes that become giant projects.<br>
 For humanity.
 
 And, naturally, for the power of nuggets.
 
----
-
-## 📌 Featured Repositories
-
-Check the pinned repositories below for the current main projects.
-
-More documentation, examples, and baked-image workflows will be added as the lab grows.
+Check the pinned repositories below for the projects currently receiving the most attention.

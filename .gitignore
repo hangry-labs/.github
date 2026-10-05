@@ -1,0 +1,8 @@
+# Local agent and IDE workspace files
+AGENTS.md
+.ai/
+.idea/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
