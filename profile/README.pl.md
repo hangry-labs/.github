@@ -13,11 +13,11 @@
 
 # 🧪 Hangry Labs
 
-**Lokalna sztuczna inteligencja i otwarte oprogramowanie, przygotowane do działania na sprzęcie pod Twoją kontrolą. Dla ludzkości i potęgi nuggetsów.**
+**Lokalne AI i otwarte oprogramowanie, przygotowane do działania na sprzęcie pod Twoją kontrolą. Dla ludzkości i potęgi nuggetsów.**
 
 Hangry Labs tworzy praktyczne systemy AI do samodzielnego hostowania, automatyzacje, panele, standardy i narzędzia kreatywne. Pakujemy trudne elementy, dostarczamy użyteczne interfejsy i uczciwie wyjaśniamy kompromisy, aby zaawansowane oprogramowanie łatwiej było uruchamiać, rozumieć, łączyć i zachowywać.
 
-Odwiedź [katalog oprogramowania Hangry Labs](https://hangrylabs.app/software), aby znaleźć przewodniki po produktach, prawdziwe przykłady i pomoc w instalacji.
+Odwiedź [katalog oprogramowania Hangry Labs](https://hangrylabs.app/pl/software), aby znaleźć przewodniki po produktach, rzeczywiste przykłady i pomoc w instalacji.
 
 Bo czasami po prostu chcesz, żeby to działało.  
 Bez przywoływania dwunastu demonów zależności i składania weekendu w ofierze środowiskom Pythona.
@@ -26,7 +26,7 @@ Bez przywoływania dwunastu demonów zależności i składania weekendu w ofierz
 
 ## ⚡ Wybierz narzędzie i zacznij działać
 
-[Katalog oprogramowania](https://hangrylabs.app/software) pomaga porównać aktualne aplikacje i posłuchać prawdziwych przykładów głosu przed pobraniem czegokolwiek.
+[Katalog oprogramowania](https://hangrylabs.app/pl/software) prezentuje aplikacje, które korzystają już z nowego interfejsu Hangry Labs i odświeżonego sposobu pakowania. Możesz je porównać i posłuchać rzeczywistych przykładów głosu przed pobraniem czegokolwiek.
 
 Dla narzędzi głosowych opartych na Dockerze każdy przewodnik instalacyjny zadaje sześć krótkich pytań o system operacyjny, sprzęt, rozmiar pobierania, kanał wydań, rejestr obrazów i dostęp sieciowy. Następnie tworzy jedno dokładne polecenie i wyjaśnia każdy krok prostym językiem. Odpowiedzi pozostają w przeglądarce i nie są wysyłane na serwer.
 
@@ -62,7 +62,7 @@ Może nie zawsze idealnie. Nadal walczymy z pożarami zależności. Ale właśni
 
 ## 🧰 Aplikacje
 
-To, co zaczęło się od lokalnych narzędzi głosowych, rozrosło się w szerszy zestaw oprogramowania dla AI, operacji i twórców.
+To, co zaczęło się od lokalnych narzędzi głosowych, rozrosło się w szerszy zestaw oprogramowania do AI, zarządzania i pracy twórczej.
 
 | Projekt | Obszar | Co oferuje |
 |---|---|---|
@@ -78,12 +78,12 @@ Różne silniki i narzędzia mają różne mocne strony. Pakujemy je zgodnie z t
 
 Różne nuggetsy na różne katastrofy.
 
-### Standardy i elementy konstrukcyjne
+### Standardy i podstawowe komponenty
 
 | Projekt | Rola | Aktualny kierunek |
 |---|---|---|
-| [**Faster Qwen3-TTS**](https://github.com/hangry-labs/faster-qwen3-tts-studio) | Środowisko wydajnościowe | Strumieniowe i niestrumieniowe wnioskowanie Qwen3-TTS w czasie rzeczywistym z akceleracją CUDA Graph, serwerem zgodnym z OpenAI i eksperymentalnym silnikiem GGML dla CUDA oraz Apple Silicon. |
-| [**Specyfikacja SSML-H**](https://github.com/hangry-labs/ssml-h-spec) | Znaczniki mowy | Normatywne źródło niezależnego profilu rozszerzeń Hangry Labs dla W3C SSML 1.1, obejmującego dynamiczne deklaracje głosów i instrukcje dla poszczególnych wypowiedzi. |
+| [**Faster Qwen3-TTS**](https://github.com/hangry-labs/faster-qwen3-tts-studio) | Wydajne środowisko uruchomieniowe | Strumieniowe i niestrumieniowe wnioskowanie Qwen3-TTS w czasie rzeczywistym z akceleracją CUDA Graph, serwerem zgodnym z OpenAI i eksperymentalnym silnikiem GGML dla CUDA oraz Apple Silicon. |
+| [**Specyfikacja SSML-H**](https://github.com/hangry-labs/ssml-h-spec) | Znaczniki syntezy mowy | Normatywne źródło niezależnego profilu rozszerzeń Hangry Labs dla W3C SSML 1.1, obejmującego dynamiczne deklaracje głosów i instrukcje dla poszczególnych wypowiedzi. |
 | [**SSML-H Tools**](https://github.com/hangry-labs/ssml-h-tools) | Biblioteka referencyjna | Niezależny od silnika parser, walidator i konstruktor w Pythonie, który kompiluje SSML i SSML-H do niezmiennych planów syntezy. |
 
 ---
@@ -102,7 +102,7 @@ Celem jest niezawodność, a nie wygranie konkursu na najmniejszy obraz. Większ
 
 ### Otwarte interfejsy
 
-Ludzie powinni otrzymać przejrzysty interfejs przeglądarkowy. Aplikacje i automatyzacje powinny mieć udokumentowane API HTTP, użyteczne punkty stanu i przewidywalne zachowanie.
+Ludzie powinni otrzymać przejrzysty interfejs przeglądarkowy. Aplikacje i automatyzacje powinny mieć udokumentowane API HTTP, użyteczne punkty końcowe stanu i przewidywalne zachowanie.
 
 Tam, gdzie API zgodne z OpenAI mają sens, używamy ich jako praktycznej podstawy zgodności, zachowując jednocześnie przydatne funkcje właściwe dla danego produktu.
 
@@ -142,7 +142,7 @@ Nie wszystko musi być subskrypcją chmurową. Niektóre rzeczy powinny po prost
 
 Budujemy dla ludzi, którzy chcą uruchamiać wszystko samodzielnie.
 
-Dla konstruktorów.<br>
+Dla tych, którzy budują.<br>
 Dla twórców.<br>
 Dla prywatności.<br>
 Dla dziwnych eksperymentów.<br>

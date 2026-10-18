@@ -13,11 +13,11 @@
 
 # 🧪 Hangry Labs
 
-**IA con prioridad local y software abierto, preparados para ejecutarse en hardware bajo tu control. Por la humanidad y el poder de los nuggets.**
+**IA local y software abierto, preparados para ejecutarse en hardware bajo tu control. Por la humanidad y el poder de los nuggets.**
 
 Hangry Labs crea sistemas prácticos de IA autoalojables, automatización, paneles, estándares y herramientas creativas. Empaquetamos las partes difíciles, ofrecemos interfaces útiles y explicamos las limitaciones reales para que el software avanzado sea más fácil de ejecutar, comprender, conectar y conservar.
 
-Explora el [catálogo de software de Hangry Labs](https://hangrylabs.app/software) para encontrar guías de productos, ejemplos reales y ayuda de instalación.
+Explora el [catálogo de software de Hangry Labs](https://hangrylabs.app/es/software) para encontrar guías de productos, ejemplos reales y ayuda de instalación.
 
 Porque a veces solo quieres que la cosa funcione.  
 No invocar doce demonios de dependencias y sacrificar el fin de semana a los entornos de Python.
@@ -26,7 +26,7 @@ No invocar doce demonios de dependencias y sacrificar el fin de semana a los ent
 
 ## ⚡ Elige una herramienta y empieza
 
-El [catálogo de software](https://hangrylabs.app/software) te ayuda a comparar las aplicaciones actuales y escuchar ejemplos reales de voz antes de descargar nada.
+El [catálogo de software](https://hangrylabs.app/es/software) presenta las aplicaciones que ya tienen la nueva interfaz de Hangry Labs y el empaquetado actualizado. Puedes compararlas y escuchar ejemplos reales de voz antes de descargar nada.
 
 Para las herramientas de voz basadas en Docker, cada guía de instalación hace seis preguntas breves sobre el sistema operativo, el hardware, el tamaño de descarga, el canal de versiones, el registro de imágenes y el acceso de red. Después genera un único comando exacto y explica cada paso con lenguaje sencillo. Tus respuestas permanecen en el navegador y no se envían al servidor.
 
@@ -82,15 +82,15 @@ Nuggets diferentes para desastres diferentes.
 
 | Proyecto | Función | Enfoque actual |
 |---|---|---|
-| [**Faster Qwen3-TTS**](https://github.com/hangry-labs/faster-qwen3-tts-studio) | Entorno de alto rendimiento | Inferencia Qwen3-TTS en tiempo real, con y sin streaming, aceleración CUDA Graph, un servidor compatible con OpenAI y un backend GGML experimental para CUDA y Apple Silicon. |
-| [**Especificación SSML-H**](https://github.com/hangry-labs/ssml-h-spec) | Marcado de voz | El hogar normativo del perfil de extensión independiente de Hangry Labs para W3C SSML 1.1, con declaraciones dinámicas de voces e instrucciones por turno. |
+| [**Faster Qwen3-TTS**](https://github.com/hangry-labs/faster-qwen3-tts-studio) | Entorno de ejecución de alto rendimiento | Inferencia Qwen3-TTS en tiempo real, con y sin streaming, aceleración CUDA Graph, un servidor compatible con OpenAI y un backend GGML experimental para CUDA y Apple Silicon. |
+| [**Especificación SSML-H**](https://github.com/hangry-labs/ssml-h-spec) | Marcado de voz | La fuente normativa del perfil de extensión independiente de Hangry Labs para W3C SSML 1.1, con declaraciones dinámicas de voces e instrucciones por turno. |
 | [**SSML-H Tools**](https://github.com/hangry-labs/ssml-h-tools) | Biblioteca de referencia | Un analizador, validador y constructor de Python independiente del motor que compila SSML y SSML-H en planes de síntesis inmutables. |
 
 ---
 
 ## 🛠️ Cómo construimos
 
-### Prioridad local y privacidad predeterminada
+### IA local y privacidad predeterminada
 
 Tus datos deberían permanecer cerca. Los proyectos de Hangry Labs buscan funcionar en tu máquina o servidor sin enviar entradas sensibles a la nube de otra persona.
 
@@ -120,7 +120,7 @@ Muchos proyectos de Hangry Labs se basan en excelentes investigaciones y softwar
 
 ## 🚀 Dirección a largo plazo
 
-Hangry Labs sigue siendo un laboratorio para misiones secundarias útiles. La dirección general incluye herramientas con prioridad local para:
+Hangry Labs sigue siendo un laboratorio para misiones secundarias útiles. La dirección general incluye herramientas locales para:
 
 - compañeros de IA e interfaces de voz
 - sistemas de memoria y conocimiento

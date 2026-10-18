@@ -17,7 +17,7 @@
 
 Hangry Labs bygger praktiske KI-systemer for egen drift, automatisering, dashbord, standarder og kreative verktøy. Vi pakker de vanskelige delene, lager nyttige grensesnitt og forklarer de reelle avveiningene, slik at avansert programvare blir enklere å kjøre, forstå, koble sammen og bevare.
 
-Utforsk [programvarekatalogen til Hangry Labs](https://hangrylabs.app/software) for produktveiledninger, ekte eksempler og installasjonshjelp.
+Utforsk [programvarekatalogen til Hangry Labs](https://hangrylabs.app/nb/software) for produktveiledninger, ekte eksempler og installasjonshjelp.
 
 For noen ganger vil du bare at tingen skal virke.  
 Ikke påkalle tolv avhengighetsdemoner og ofre helgen til Python-miljøer.
@@ -26,9 +26,9 @@ Ikke påkalle tolv avhengighetsdemoner og ofre helgen til Python-miljøer.
 
 ## ⚡ Velg et verktøy og kom i gang
 
-[Programvarekatalogen](https://hangrylabs.app/software) hjelper deg med å sammenligne de aktuelle programmene og høre ekte stemmeeksempler før du laster ned noe.
+[Programvarekatalogen](https://hangrylabs.app/nb/software) viser programmene som allerede har fått det nye Hangry Labs-grensesnittet og oppdatert pakking. Der kan du sammenligne dem og høre ekte stemmeeksempler før du laster ned noe.
 
-For de Docker-baserte taleverktøyene stiller hver installasjonsveiledning seks korte spørsmål om operativsystem, maskinvare, nedlastingsstørrelse, utgivelsesspor, containerregister og nettverkstilgang. Deretter lager den én nøyaktig kommando og forklarer hvert trinn på vanlig språk. Svarene dine blir i nettleseren og sendes ikke til serveren.
+For de Docker-baserte taleverktøyene stiller hver installasjonsveiledning seks korte spørsmål om operativsystem, maskinvare, nedlastingsstørrelse, utgivelsesspor, bilderegister og nettverkstilgang. Deretter lager den én nøyaktig kommando og forklarer hvert trinn på klart språk. Svarene dine blir i nettleseren og sendes ikke til serveren.
 
 Velg et prosjekt, åpne **Installasjonshjelp**, og la veiviseren håndtere sideoppdraget med å bygge kommandoen.
 
@@ -70,7 +70,7 @@ Det som begynte med lokale taleverktøy, har vokst til en bredere samling av pro
 | [**MeloTTS**](https://github.com/hangry-labs/MeloTTS) | Flerspråklig tale | Åtte modeller på seks språk, modelladministrasjon i nettleseren, seks utdataformater, setningsstrømmet MP3 og PCM samt egne og OpenAI-kompatible API-er. |
 | [**OmniVoiceTTS**](https://github.com/hangry-labs/OmniVoiceTTS) | Stemmelaboratorium | Tale på over 600 språk med stemmedesign, kloning fra mikrofon og referanse, gjenbrukbare profiler, SSML-H-dialog, strømming og OpenAI-kompatible API-er. |
 | [**VoxCPMTTS**](https://github.com/hangry-labs/VoxCPMTTS) | Kreativ tale | Nano-vLLM-drevet generering på 30 språk, naturlig stemmedesign, referanse- og transkripsjonsstyrt kloning, gjenbrukbare profiler, progressiv strømming og HTTP-API-er. |
-| [**Qwen3-ASR-STT**](https://github.com/hangry-labs/Qwen3-ASR-STT) | Tale til tekst | Lokal transkripsjon på 30 språk, direktesesjoner med mikrofon, tidsstempler og undertekster, OpenAI-kompatible klienter og valgfri MCP-transkripsjon av filer og nettadresser. |
+| [**Qwen3-ASR-STT**](https://github.com/hangry-labs/Qwen3-ASR-STT) | Tale til tekst | Lokal transkripsjon på 30 språk, mikrofonøkter i sanntid, tidsstempler og undertekster, OpenAI-kompatible klienter og valgfri MCP-transkripsjon av filer og nettadresser. |
 | [**llama.nodrama**](https://github.com/hangry-labs/llama.nodrama) | LLM-drift | Et lett dashbord for llama.cpp-spor, køer, gjennomstrømming, KV-bufferoppførsel, tidslinjer for forespørsler og driftsdetaljene som skjules bak et lokalt LLM-endepunkt. |
 | [**see-through**](https://github.com/hangry-labs/see-through) | Skaperverktøy | Privat, lokal lagdeling av animefigurer med eksport til lagdelt PSD, interaktive dybdeforhåndsvisninger, manuell rekkefølge, selektiv regenerering og gjenoppretting av kildedetaljer. |
 
@@ -84,7 +84,7 @@ Ulike nuggets for ulike katastrofer.
 |---|---|---|
 | [**Faster Qwen3-TTS**](https://github.com/hangry-labs/faster-qwen3-tts-studio) | Ytelseskjøretid | Qwen3-TTS-inferens i sanntid med og uten strømming, CUDA Graph-akselerasjon, en OpenAI-kompatibel server og en eksperimentell GGML-motor for CUDA og Apple Silicon. |
 | [**SSML-H-spesifikasjonen**](https://github.com/hangry-labs/ssml-h-spec) | Talemarkering | Det normative hjemmet til den uavhengige Hangry Labs-utvidelsesprofilen for W3C SSML 1.1, inkludert dynamiske stemmedeklarasjoner og instruksjoner per replikk. |
-| [**SSML-H Tools**](https://github.com/hangry-labs/ssml-h-tools) | Referansebibliotek | En motornøytral Python-parser, validator og bygger som kompilerer SSML og SSML-H til uforanderlige synteseplaner. |
+| [**SSML-H Tools**](https://github.com/hangry-labs/ssml-h-tools) | Referansebibliotek | En motornøytral Python-parser, validator og et byggeverktøy som kompilerer SSML og SSML-H til uforanderlige synteseplaner. |
 
 ---
 
@@ -96,9 +96,9 @@ Dataene dine bør holde seg i nærheten. Hangry Labs-prosjekter skal kunne kjør
 
 ### Ferdigpakket når det er praktisk
 
-Komplette Docker-avbildninger kan inneholde modellfiler, kjøretidsavhengigheter og selve programmet. Når en fullstendig ferdigpakket avbildning blir upraktisk, kan prosjektene tilby en mindre avbildning med et stabilt, vedvarende datavolum.
+Komplette Docker-bilder kan inneholde modellfiler, kjøretidsavhengigheter og selve programmet. Når et fullstendig ferdigpakket bilde blir upraktisk, kan prosjektene tilby et mindre bilde med et stabilt, vedvarende datavolum.
 
-Målet er pålitelighet, ikke å vinne konkurransen om den minste avbildningen. En større avbildning som fortsatt virker neste år, er ofte mer nyttig enn en liten avbildning som går i stykker når en pakke endres eller en modell-lenke forsvinner.
+Målet er pålitelighet, ikke å vinne konkurransen om det minste bildet. Et større bilde som fortsatt virker neste år, er ofte mer nyttig enn et lite bilde som går i stykker når en pakke endres eller en modell-lenke forsvinner.
 
 ### Åpne grensesnitt
 

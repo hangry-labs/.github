@@ -26,7 +26,7 @@ Not summon twelve dependency demons and sacrifice your weekend to Python environ
 
 ## ⚡ Pick a Tool and Get Running
 
-The [software catalog](https://hangrylabs.app/software) helps you compare the current applications and hear real voice examples before downloading anything.
+The [software catalog](https://hangrylabs.app/software) showcases the applications that already use the refreshed Hangry Labs interface and packaging. You can compare them and hear real voice examples before downloading anything.
 
 For the Docker-based speech tools, each installation guide asks six short questions about your operating system, hardware, download size, release track, image registry, and network access. It then produces one exact command and explains every step in plain language. Your answers stay in your browser and are not submitted to the server.
 
