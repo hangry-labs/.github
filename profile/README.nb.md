@@ -70,6 +70,7 @@ Det som begynte med lokale taleverktøy, har vokst til en bredere samling av pro
 | [**MeloTTS**](https://github.com/hangry-labs/MeloTTS) | Flerspråklig tale | Åtte modeller på seks språk, modelladministrasjon i nettleseren, seks utdataformater, setningsstrømmet MP3 og PCM samt egne og OpenAI-kompatible API-er. |
 | [**OmniVoiceTTS**](https://github.com/hangry-labs/OmniVoiceTTS) | Stemmelaboratorium | Tale på over 600 språk med stemmedesign, kloning fra mikrofon og referanse, gjenbrukbare profiler, SSML-H-dialog, strømming og OpenAI-kompatible API-er. |
 | [**VoxCPMTTS**](https://github.com/hangry-labs/VoxCPMTTS) | Kreativ tale | Nano-vLLM-drevet generering på 30 språk, naturlig stemmedesign, referanse- og transkripsjonsstyrt kloning, gjenbrukbare profiler, progressiv strømming og HTTP-API-er. |
+| [**Faster Qwen3-TTS Studio**](https://github.com/hangry-labs/faster-qwen3-tts-studio) | Qwen-stemmelaboratorium for NVIDIA | CUDA Graph-akselerert Qwen3-TTS med fem fastlåste modeller, stemmedesign og -kloning, innebygde og lagrede stemmer, strømming, Magic- og SSML-H-dialog samt et OpenAI-kompatibelt tale-API. |
 | [**Qwen3-ASR-STT**](https://github.com/hangry-labs/Qwen3-ASR-STT) | Tale til tekst | Lokal transkripsjon på 30 språk, mikrofonøkter i sanntid, tidsstempler og undertekster, OpenAI-kompatible klienter og valgfri MCP-transkripsjon av filer og nettadresser. |
 | [**llama.nodrama**](https://github.com/hangry-labs/llama.nodrama) | LLM-drift | Et lett dashbord for llama.cpp-spor, køer, gjennomstrømming, KV-bufferoppførsel, tidslinjer for forespørsler og driftsdetaljene som skjules bak et lokalt LLM-endepunkt. |
 | [**see-through**](https://github.com/hangry-labs/see-through) | Skaperverktøy | Privat, lokal lagdeling av animefigurer med eksport til lagdelt PSD, interaktive dybdeforhåndsvisninger, manuell rekkefølge, selektiv regenerering og gjenoppretting av kildedetaljer. |
@@ -82,7 +83,6 @@ Ulike nuggets for ulike katastrofer.
 
 | Prosjekt | Rolle | Nåværende fokus |
 |---|---|---|
-| [**Faster Qwen3-TTS**](https://github.com/hangry-labs/faster-qwen3-tts-studio) | Ytelseskjøretid | Qwen3-TTS-inferens i sanntid med og uten strømming, CUDA Graph-akselerasjon, en OpenAI-kompatibel server og en eksperimentell GGML-motor for CUDA og Apple Silicon. |
 | [**SSML-H-spesifikasjonen**](https://github.com/hangry-labs/ssml-h-spec) | Talemarkering | Det normative hjemmet til den uavhengige Hangry Labs-utvidelsesprofilen for W3C SSML 1.1, inkludert dynamiske stemmedeklarasjoner og instruksjoner per replikk. |
 | [**SSML-H Tools**](https://github.com/hangry-labs/ssml-h-tools) | Referansebibliotek | En motornøytral Python-parser, validator og et byggeverktøy som kompilerer SSML og SSML-H til uforanderlige synteseplaner. |
 

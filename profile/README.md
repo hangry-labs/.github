@@ -70,6 +70,7 @@ What began with local speech tools has grown into a wider collection of AI, oper
 | [**MeloTTS**](https://github.com/hangry-labs/MeloTTS) | Multilingual speech | Eight models across six languages, browser model management, six output formats, sentence-streamed MP3 and PCM, and native and OpenAI-compatible APIs. |
 | [**OmniVoiceTTS**](https://github.com/hangry-labs/OmniVoiceTTS) | Voice lab | Speech for 600+ languages with voice design, microphone and reference cloning, reusable profiles, SSML-H dialogue, streaming, and OpenAI-compatible APIs. |
 | [**VoxCPMTTS**](https://github.com/hangry-labs/VoxCPMTTS) | Creative speech | Nano-vLLM-powered generation across 30 languages, natural voice design, reference and transcript-guided cloning, reusable profiles, progressive streaming, and HTTP APIs. |
+| [**Faster Qwen3-TTS Studio**](https://github.com/hangry-labs/faster-qwen3-tts-studio) | NVIDIA Qwen voice studio | CUDA Graph-accelerated Qwen3-TTS with five pinned models, voice design and cloning, built-in and saved voices, streaming, Magic and SSML-H dialogue, and an OpenAI-compatible speech API. |
 | [**Qwen3-ASR-STT**](https://github.com/hangry-labs/Qwen3-ASR-STT) | Speech to text | Local 30-language transcription, live microphone sessions, timestamps and subtitles, OpenAI-compatible clients, and opt-in MCP transcription for files and URLs. |
 | [**llama.nodrama**](https://github.com/hangry-labs/llama.nodrama) | LLM operations | A lightweight dashboard for llama.cpp slots, queues, throughput, KV cache behavior, request timelines, and the operational details hidden behind a local LLM endpoint. |
 | [**see-through**](https://github.com/hangry-labs/see-through) | Creator tools | Private local anime-character layer decomposition with layered PSD export, interactive depth previews, manual ordering, selective regeneration, and source-detail recovery. |
@@ -82,7 +83,6 @@ Different nuggets for different disasters.
 
 | Project | Role | Current focus |
 |---|---|---|
-| [**Faster Qwen3-TTS**](https://github.com/hangry-labs/faster-qwen3-tts-studio) | Performance runtime | Real-time streaming and non-streaming Qwen3-TTS inference with CUDA Graph acceleration, an OpenAI-compatible server, and an experimental GGML backend for CUDA and Apple Silicon. |
 | [**SSML-H Specification**](https://github.com/hangry-labs/ssml-h-spec) | Speech markup | The normative home of the independent Hangry Labs extension profile for W3C SSML 1.1, including dynamic voice declarations and per-turn direction. |
 | [**SSML-H Tools**](https://github.com/hangry-labs/ssml-h-tools) | Reference library | An engine-neutral Python parser, validator, and builder that compiles SSML and SSML-H into immutable synthesis plans. |
 

@@ -70,6 +70,7 @@ docker run ...
 | [**MeloTTS**](https://github.com/hangry-labs/MeloTTS) | 多言語音声 | 6言語の8モデル、ブラウザでのモデル管理、6種類の出力形式、文単位のMP3およびPCMストリーミング、ネイティブAPIとOpenAI互換API。 |
 | [**OmniVoiceTTS**](https://github.com/hangry-labs/OmniVoiceTTS) | 音声ラボ | 600以上の言語、音声デザイン、マイクと参照音声からのクローン、再利用可能なプロファイル、SSML-H会話、ストリーミング、OpenAI互換API。 |
 | [**VoxCPMTTS**](https://github.com/hangry-labs/VoxCPMTTS) | クリエイティブ音声 | Nano-vLLMによる30言語の生成、自然言語での音声デザイン、参照音声と文字起こしを使ったクローン、再利用可能なプロファイル、段階的ストリーミング、HTTP API。 |
+| [**Faster Qwen3-TTS Studio**](https://github.com/hangry-labs/faster-qwen3-tts-studio) | NVIDIA向けQwen音声Studio | CUDA Graphで高速化したQwen3-TTS。固定リビジョンの5モデル、声のデザインとクローン、内蔵音声と保存した声、ストリーミング、MagicおよびSSML-H会話、OpenAI互換音声APIを提供。 |
 | [**Qwen3-ASR-STT**](https://github.com/hangry-labs/Qwen3-ASR-STT) | 音声認識 | 30言語のローカル文字起こし、ライブマイクセッション、タイムスタンプと字幕、OpenAI互換クライアント、ファイルとURLを対象とする任意のMCP文字起こし。 |
 | [**llama.nodrama**](https://github.com/hangry-labs/llama.nodrama) | LLM運用 | llama.cppのスロット、キュー、スループット、KVキャッシュの挙動、リクエストタイムライン、ローカルLLMエンドポイントの背後に隠れた運用情報を表示する軽量ダッシュボード。 |
 | [**see-through**](https://github.com/hangry-labs/see-through) | クリエイターツール | アニメキャラクター画像をローカルかつ非公開でレイヤー分解し、レイヤー付きPSD出力、対話型深度プレビュー、手動並べ替え、選択的な再生成、元画像の細部復元を提供。 |
@@ -82,7 +83,6 @@ docker run ...
 
 | プロジェクト | 役割 | 現在の焦点 |
 |---|---|---|
-| [**Faster Qwen3-TTS**](https://github.com/hangry-labs/faster-qwen3-tts-studio) | 高性能ランタイム | CUDA Graph高速化、OpenAI互換サーバー、CUDAおよびApple Silicon向けの実験的GGMLバックエンドを備えた、ストリーミングと非ストリーミングのリアルタイムQwen3-TTS推論。 |
 | [**SSML-H仕様**](https://github.com/hangry-labs/ssml-h-spec) | 音声マークアップ | 動的な音声宣言と発話ごとの指示を含む、W3C SSML 1.1向けHangry Labs独自拡張プロファイルの規範となる公式リポジトリ。 |
 | [**SSML-H Tools**](https://github.com/hangry-labs/ssml-h-tools) | リファレンスライブラリ | SSMLとSSML-Hを変更不可の合成計画へコンパイルする、エンジン非依存のPythonパーサー、バリデーター、ビルダー。 |
 

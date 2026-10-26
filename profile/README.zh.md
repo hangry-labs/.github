@@ -70,6 +70,7 @@ docker run ...
 | [**MeloTTS**](https://github.com/hangry-labs/MeloTTS) | 多语言语音 | 六种语言的八个模型、浏览器模型管理、六种输出格式、逐句 MP3 和 PCM 流，以及原生与 OpenAI 兼容 API。 |
 | [**OmniVoiceTTS**](https://github.com/hangry-labs/OmniVoiceTTS) | 语音实验室 | 支持 600 多种语言，具备声音设计、麦克风与参考音频克隆、可复用配置、SSML-H 对话、流式生成和 OpenAI 兼容 API。 |
 | [**VoxCPMTTS**](https://github.com/hangry-labs/VoxCPMTTS) | 创意语音 | 由 Nano-vLLM 驱动的 30 种语言生成、自然语言声音设计、参考音频与转录引导克隆、可复用配置、渐进式流和 HTTP API。 |
+| [**Faster Qwen3-TTS Studio**](https://github.com/hangry-labs/faster-qwen3-tts-studio) | NVIDIA Qwen 语音 Studio | 采用 CUDA Graph 加速的 Qwen3-TTS，包含五个固定版本模型，支持声音设计与克隆、内置与已保存声音、流式播放、Magic 和 SSML-H 对话，以及 OpenAI 兼容语音 API。 |
 | [**Qwen3-ASR-STT**](https://github.com/hangry-labs/Qwen3-ASR-STT) | 语音转文字 | 本地 30 种语言转录、实时麦克风会话、时间戳与字幕、OpenAI 兼容客户端，以及可选的文件和 URL MCP 转录。 |
 | [**llama.nodrama**](https://github.com/hangry-labs/llama.nodrama) | LLM 运维 | 用于查看 llama.cpp 槽位、队列、吞吐量、KV 缓存行为、请求时间线，以及本地 LLM 端点背后运维细节的轻量仪表盘。 |
 | [**see-through**](https://github.com/hangry-labs/see-through) | 创作工具 | 私密的本地动漫角色图层分解，支持分层 PSD 导出、交互式深度预览、手动排序、选择性重新生成和源图细节恢复。 |
@@ -82,7 +83,6 @@ docker run ...
 
 | 项目 | 角色 | 当前重点 |
 |---|---|---|
-| [**Faster Qwen3-TTS**](https://github.com/hangry-labs/faster-qwen3-tts-studio) | 高性能运行时 | 支持流式与非流式的实时 Qwen3-TTS 推理，包含 CUDA Graph 加速、OpenAI 兼容服务器，以及面向 CUDA 和 Apple Silicon 的实验性 GGML 后端。 |
 | [**SSML-H 规范**](https://github.com/hangry-labs/ssml-h-spec) | 语音标记 | Hangry Labs 为 W3C SSML 1.1 创建的独立扩展配置文件的规范来源，包含动态声音声明和逐轮指令。 |
 | [**SSML-H Tools**](https://github.com/hangry-labs/ssml-h-tools) | 参考库 | 与引擎无关的 Python 解析器、验证器和构建器，可将 SSML 和 SSML-H 编译为不可变的合成计划。 |
 
