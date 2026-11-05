@@ -72,6 +72,9 @@ docker run ...
 | [**VoxCPMTTS**](https://github.com/hangry-labs/VoxCPMTTS) | 创意语音 | 由 Nano-vLLM 驱动的 30 种语言生成、自然语言声音设计、参考音频与转录引导克隆、可复用配置、渐进式流和 HTTP API。 |
 | [**Faster Qwen3-TTS Studio**](https://github.com/hangry-labs/faster-qwen3-tts-studio) | NVIDIA Qwen 语音 Studio | 采用 CUDA Graph 加速的 Qwen3-TTS，包含五个固定版本模型，支持声音设计与克隆、内置与已保存声音、流式播放、Magic 和 SSML-H 对话，以及 OpenAI 兼容语音 API。 |
 | [**Qwen3-ASR-STT**](https://github.com/hangry-labs/Qwen3-ASR-STT) | 语音转文字 | 本地 30 种语言转录、实时麦克风会话、时间戳与字幕、OpenAI 兼容客户端，以及可选的文件和 URL MCP 转录。 |
+| [**Listen2Me**](https://github.com/hangry-labs/Listen2Me) | Windows 语音输入 | 免费的专有软件测试版，可将识别的语音输入到选定文本框。支持本地模型或兼容的 ASR 服务器、实时预览、自定义短语和音频文件转录。 |
+| [**Sidon**](https://github.com/hangry-labs/Sidon) | 语音修复 | 在本地修复劣化语音、分离两位说话人、修复分离后的音轨或转换音频格式。提供浏览器工作室、任务 API，以及 CPU 或 NVIDIA GPU 处理。 |
+| [**YuE2**](https://github.com/hangry-labs/yue2) | 歌曲生成 | 在 NVIDIA GPU 上根据歌词和音乐指导生成 48 kHz 立体声歌曲。支持 ABC 乐谱编辑、录音片段复用、可搜索的曲库和 HTTP 任务。模型文件需单独下载。 |
 | [**llama.nodrama**](https://github.com/hangry-labs/llama.nodrama) | LLM 运维 | 用于查看 llama.cpp 槽位、队列、吞吐量、KV 缓存行为、请求时间线，以及本地 LLM 端点背后运维细节的轻量仪表盘。 |
 | [**see-through**](https://github.com/hangry-labs/see-through) | 创作工具 | 私密的本地动漫角色图层分解，支持分层 PSD 导出、交互式深度预览、手动排序、选择性重新生成和源图细节恢复。 |
 

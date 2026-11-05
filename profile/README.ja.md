@@ -72,6 +72,9 @@ docker run ...
 | [**VoxCPMTTS**](https://github.com/hangry-labs/VoxCPMTTS) | クリエイティブ音声 | Nano-vLLMによる30言語の生成、自然言語での音声デザイン、参照音声と文字起こしを使ったクローン、再利用可能なプロファイル、段階的ストリーミング、HTTP API。 |
 | [**Faster Qwen3-TTS Studio**](https://github.com/hangry-labs/faster-qwen3-tts-studio) | NVIDIA向けQwen音声Studio | CUDA Graphで高速化したQwen3-TTS。固定リビジョンの5モデル、声のデザインとクローン、内蔵音声と保存した声、ストリーミング、MagicおよびSSML-H会話、OpenAI互換音声APIを提供。 |
 | [**Qwen3-ASR-STT**](https://github.com/hangry-labs/Qwen3-ASR-STT) | 音声認識 | 30言語のローカル文字起こし、ライブマイクセッション、タイムスタンプと字幕、OpenAI互換クライアント、ファイルとURLを対象とする任意のMCP文字起こし。 |
+| [**Listen2Me**](https://github.com/hangry-labs/Listen2Me) | Windows音声入力 | 選択したテキスト欄へ音声認識結果を入力する、無料のプロプライエタリ製品のベータ版。ローカルモデルまたは互換ASRサーバー、ライブプレビュー、カスタムフレーズ、音声ファイルの文字起こしに対応。 |
+| [**Sidon**](https://github.com/hangry-labs/Sidon) | 音声修復 | 劣化した音声の修復、2人の話者の分離、分離後の音声修復、形式変換をローカルで実行。ブラウザStudio、ジョブAPI、CPUまたはNVIDIA GPUでの処理を提供。 |
+| [**YuE2**](https://github.com/hangry-labs/yue2) | 楽曲生成 | 歌詞と音楽の指示から、NVIDIA GPUで48 kHzステレオの楽曲を生成。ABC楽譜の編集、テイクの再利用、検索可能なライブラリ、HTTPジョブに対応。モデルファイルは別途ダウンロード。 |
 | [**llama.nodrama**](https://github.com/hangry-labs/llama.nodrama) | LLM運用 | llama.cppのスロット、キュー、スループット、KVキャッシュの挙動、リクエストタイムライン、ローカルLLMエンドポイントの背後に隠れた運用情報を表示する軽量ダッシュボード。 |
 | [**see-through**](https://github.com/hangry-labs/see-through) | クリエイターツール | アニメキャラクター画像をローカルかつ非公開でレイヤー分解し、レイヤー付きPSD出力、対話型深度プレビュー、手動並べ替え、選択的な再生成、元画像の細部復元を提供。 |
 
